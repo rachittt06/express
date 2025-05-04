@@ -13,7 +13,6 @@ exports.text = function(req, res){
     return ' - ' + user.name + '\n';
   }).join(''));
 };
-
 exports.json = function(req, res){
   res.json(users);
 };
